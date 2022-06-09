@@ -1,0 +1,28 @@
+round = 0
+while True:
+    round = round + 1
+    # changing this to input so the user can type something in
+    answer= input('Captain America is the worst Avenger because____')
+    if answer: # this line will only be true IF the user actually typed something in to give answer a value.
+        break
+    else:
+        print("You MUST answer the question!")
+        # this will print, then the while loop will start again, and again, until they type something in
+
+hero = ["Spiderman", "Ironman", "Thor","Hawkeye","Vision","Hulk", "Antman","Black Widow", "Falcon",] # was missing the ending ]
+
+# fixed this line, needed to start with the variable "answer"
+# so you can use it later
+answer= input("Who is your favorite Avenger in the MCU?")
+
+if answer == "Spiderman":
+    print ("he is the reason Spiderman got blipped away for 5 years.")
+
+if answer == "Ironman":
+    print ("He chose to beat up his friend because he sided with a prolific killer who killed his close friend. A friend he fought alongside and saved the world with countless times. Pff some Avenger he is.")
+
+if answer =="Thor":
+    print("Loki would not have died in vain.")
+
+if answer == "Hawkeye":
+    print("they would have beat Thanos the first time around. This would have resulted in Hawkeye not losing his family and going on a murderous rampage.")
