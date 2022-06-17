@@ -1,0 +1,157 @@
+!/usr/bin/env python3
+"""Python Final Project 
+    Top Ten TV Shows That You Should Check Out."""
+
+import webbrowser
+
+print("Welcome to the highly regarded tv show and movie reviewer, where we give you an unbiased look at the best experiences from the past and present based on your preferred genre.")
+
+answer= input("Please choose from this list of genres. Action. Comedy. Drama. Fantasy. Horror. Mystery. Romance. Thriller.")
+
+if answer == 'Action':
+    print("""
+    10. John Wick   
+    9. 7 Samurai  
+    8. The Matrix  
+    7. Kill Bill  
+    6. Crouching Tiger Hidden Dragon  
+    5. The Raid: Redeption  
+    4. Terminator 2: Judgement Day  
+    3. Enter the Dragon  
+    2. Die Hard  
+    1. Mad Max: Fury Road""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.lionsgate.com/franchises/john-wick")
+    if choice == '9':
+        webbrowser.open_new(" ")
+
+if answer == 'Comedy':
+    print("""
+    10. Anchorman
+    9. Wayne's World
+    8. National Lampoon's Vacation
+    7. Trading Places
+    6. Caddyshack
+    5. The Princess Bride
+    4. Ghostbusters
+    3. Monty Python and the Holy Grail
+    2. Airplane
+    1. Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+
+if answer == 'Drama':
+    print("""
+    10. Gone with the Wind
+    9. The Shawshank Redemption
+    8. Do the Right Thing
+    7. Goodfellas
+    6.The Godfather, Part II
+    5. Schindler's List
+    4. The Seven Samurai
+    3. Raging Bull
+    2. Citizen Kane
+    1. The Godfather""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+if answer == 'Fantasy':
+    print("""
+    10. Paddington 2
+    9. Edward Scissorhands
+    8. Star Wars, Episode IV- A New Hope
+    7. The Lord of the Rings: The Fellowship of the Ring
+    6. Ugetsu
+    5. Pan's Labyrinth
+    4. Labyrinth
+    3. The Wizard of Oz
+    2. The Princess Bride
+    1. Spirited Away""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+if answer == 'Horror':
+    print("""
+    10. Halloween
+    9. The Thing
+    8. Night of the Living Dead
+    7.Poltergeist
+    6. Psycho
+    5. The Texas Chainsaw Massacre
+    4. The Shining
+    3. The Conjuring
+    2. Hereditary
+    1. The Exorcist""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+if answer == 'Mystery':
+    print("""
+    10. Mulholland Drive
+    9. L.A. Confidential
+    8. Memories of Murder
+    7. Rear Window
+    6. Gone Baby Gone
+    5. Zodiac
+    4. Seven
+    3. Vertigo
+    2. Chinatown
+    1. The Maltese Falcon""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+if answer == 'Romance':
+    print("""
+    10. The Princess Bride
+    9. Slumdog Millionaire 
+    8. The Best Man
+    7. Titanic
+    6. When Harry Met Sally
+    5. Brokeback Mountain
+    4. Pride & Prejudice
+    3. Casablanca
+    2. Love Jones
+    1. The Notebook""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+
+if answer == 'Thriller':
+    print("""
+    10. Fight Club
+    9. No Country for Old Men
+    8. The Usual Suspects
+    7. Oldboy
+    6. Drive
+    5. Misery
+    4. Parasite
+    3. Memento
+    2. Basic Instinct
+    1. Silence of the Lamb""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new(" ")
+~                                     
