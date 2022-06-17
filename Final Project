@@ -1,0 +1,333 @@
+#!/usr/bin/env python3
+"""Python Final Project 
+    Top Ten TV Shows That You Should Check Out."""
+
+import webbrowser
+
+print("Welcome to the highly regarded tv show and movie reviewer, where we give you an unbiased look at the best experiences from the past and present based on your preferred genre.")
+
+answer= input("Please choose from this list of genres. Action. Comedy. Drama. Fantasy. Horror. Mystery. Romance. Thriller.")
+
+if answer == 'Action':
+    print("""
+    10. John Wick   
+    9. 7 Samurai  
+    8. The Matrix  
+    7. Kill Bill  
+    6. Crouching Tiger Hidden Dragon  
+    5. The Raid: Redeption  
+    4. Terminator 2: Judgement Day  
+    3. Enter the Dragon  
+    2. Die Hard  
+    1. Mad Max: Fury Road""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.lionsgate.com/franchises/john-wick")
+    if choice == '9':
+        webbrowser.open_new("https://www.criterion.com/films/165-seven-samurai")
+    if choice == '8':
+        webbrowser.open_new("https://www.warnerbros.com/movies/matrix")
+    if choice == '7':
+        webbrowser.open_new("https://www.miramax.com/movie/kill-bill-volume-i/")
+    if choice == '6':
+        webbrowser.open_new("https://www.sonypictures.com/movies/crouchingtigerhiddendragon")
+    if choice == '5':
+        webbrowser.open_new("https://www.sonyclassics.com/theraid/")
+    if choice == '4':
+        webbrowser.open_new("https://www.lionsgate.com/movies/terminator-2-judgment-day")
+    if choice == '3':
+        webbrowser.open_new("https://www.warnerbros.com/movies/enter-dragon")
+    if choice == '2':
+        webbrowser.open_new("https://www.20thcenturystudios.com/movies/die-hard")
+    if choice == '1':
+        webbrowser.open_new("https://www.warnerbros.com/movies/mad-max-fury-road")
+
+if answer == 'Comedy':
+    print("""
+
+    10. Anchorman
+    9. Wayne's World
+    8. National Lampoon's Vacation
+    7. Trading Places
+    6. Caddyshack
+    5. The Princess Bride
+    4. Ghostbusters
+    3. Monty Python and the Holy Grail
+    2. Airplane
+    1. Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.paramountmovies.com/movies/anchorman-the-legend-of-ron-burgundy")
+    if choice == '9':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/waynes-world")
+    if choice == '8':
+        webbrowser.open_new("https://www.warnerbros.com/movies/national-lampoons-vacation")
+    if choice == '7':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/trading-places")
+    if choice == '6':
+        webbrowser.open_new("https://www.warnerbros.com/movies/caddyshack")
+    if choice == '5':
+        webbrowser.open_new("https://www.princessbrideforever.com/")
+    if choice == '4':
+        webbrowser.open_new("https://www.ghostbusters.com/film_and_tv")
+    if choice == '3':
+        webbrowser.open_new("https://www.montypython.com/film_Monty%20Python%20and%20the%20Holy%20Grail%20(1975)/15")
+    if choice == '2':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/airplane")
+    if choice == '1':
+        webbrowser.open_new("https://www.sonypictures.com/movies/drstrangeloveorhowilearnedtostopworryingandlovethebomb")
+
+if answer == 'Drama':
+    print("""
+    10. Gone with the Wind
+    9. The Shawshank Redemption
+    8. Do the Right Thing
+    7. Goodfellas
+    6.The Godfather, Part II
+    5. Schindler's List
+    4. The Seven Samurai
+    3. Raging Bull
+    2. Citizen Kane
+    1. The Godfather""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.warnerbros.com/movies/gone-wind")
+    if choice == '9':
+        webbrowser.open_new("https://www.warnerbros.com/movies/shawshank-redemption")
+    if choice == '8':
+        webbrowser.open_new("https://www.criterion.com/films/286-do-the-right-thing")
+    if choice == '7':
+        webbrowser.open_new("https://www.warnerbros.com/movies/goodfellas")
+    if choice == '6':
+        webbrowser.open_new("https://www.paramountmovies.com/movies/the-godfather-part-ii")
+    if choice == '5':
+        webbrowser.open_new("https://www.universalpictures.com/movies/schindlers-list")
+    if choice == '4':
+        webbrowser.open_new("https://www.criterion.com/films/165-seven-samurai")
+    if choice == '3':
+        webbrowser.open_new("https://www.imdb.com/title/tt0081398/")
+    if choice == '2':
+        webbrowser.open_new("https://www.warnerbros.com/movies/citizen-kane")
+    if choice == '1':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/godfather-collection")
+if answer == 'Fantasy':
+    print("""
+    10. Paddington 2
+    9. Edward Scissorhands
+    8. Star Wars, Episode IV- A New Hope
+    7. The Lord of the Rings: The Fellowship of the Ring
+    6. Ugetsu
+    5. Pan's Labyrinth
+    4. Labyrinth
+    3. The Wizard of Oz
+    2. The Princess Bride
+    1. Spirited Away""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.warnerbros.com/movies/paddington-2")
+    if choice == '9':
+        webbrowser.open_new("https://www.20thcenturystudios.com/movies/edward-scissorhands")
+    if choice == '8':
+        webbrowser.open_new("https://www.starwars.com/films/star-wars-episode-iv-a-new-hope")
+    if choice == '7':
+        webbrowser.open_new("https://www.warnerbros.com/movies/lord-rings-fellowship-ring")
+    if choice == '6':
+        webbrowser.open_new("https://www.criterion.com/films/369-ugetsu")
+    if choice == '5':
+        webbrowser.open_new("https://www.warnerbros.com/movies/pans-labyrinth")
+    if choice == '4':
+        webbrowser.open_new("https://www.lucasfilm.com/productions/labyrinth/")
+    if choice == '3':
+        webbrowser.open_new("https://www.warnerbros.com/movies/wizard-oz")
+    if choice == '2':
+        webbrowser.open_new("https://www.princessbrideforever.com/")
+    if choice == '1':
+        webbrowser.open_new("https://www.studioghibli.com.au/spiritedaway/")
+
+if answer == 'Horror':
+    print("""
+    10. Halloween
+    9. The Thing
+    8. Night of the Living Dead
+    7.Poltergeist
+    6. Psycho
+    5. The Texas Chainsaw Massacre
+    4. The Shining
+    3. The Conjuring
+    2. Hereditary
+    1. The Exorcist""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("http://halloweenmovies.com/")
+    if choice == '9':
+        webbrowser.open_new("https://theofficialjohncarpenter.com/the-thing/")
+    if choice == '8':
+        webbrowser.open_new("https://www.janusfilms.com/films/1858")
+    if choice == '7':
+        webbrowser.open_new("https://www.warnerbros.com/movies/poltergeist")
+     if choice == '6':
+        webbrowser.open_new("https://www.criterion.com/films/369-ugetsu")
+    if choice == '5':
+        webbrowser.open_new("https://www.warnerbros.com/movies/pans-labyrinth")
+    if choice == '4':
+        webbrowser.open_new("https://www.lucasfilm.com/productions/labyrinth/")
+    if choice == '3':
+        webbrowser.open_new("https://www.warnerbros.com/movies/wizard-oz")
+    if choice == '2':
+        webbrowser.open_new("https://www.princessbrideforever.com/")
+    if choice == '1':
+        webbrowser.open_new("https://www.studioghibli.com.au/spiritedaway/")
+
+if answer == 'Horror':
+    print("""
+    10. Halloween
+    9. The Thing
+    8. Night of the Living Dead
+    7.Poltergeist
+    6. Psycho
+    5. The Texas Chainsaw Massacre
+    4. The Shining
+    3. The Conjuring
+    2. Hereditary
+    1. The Exorcist""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("http://halloweenmovies.com/")
+    if choice == '9':
+        webbrowser.open_new("https://theofficialjohncarpenter.com/the-thing/")
+    if choice == '8':
+        webbrowser.open_new("https://www.janusfilms.com/films/1858")
+    if choice == '7':
+        webbrowser.open_new("https://www.warnerbros.com/movies/poltergeist")
+    if choice == '6':
+        webbrowser.open_new("https://www.filmsite.org/psyc.html")
+    if choice == '5':
+        webbrowser.open_new("https://thetexaschainsawmassacre.com/")
+    if choice == '4':
+        webbrowser.open_new("https://www.warnerbros.com/movies/shining")
+    if choice == '3':
+        webbrowser.open_new("https://www.warnerbros.com/movies/conjuring")
+    if choice == '2':
+        webbrowser.open_new("https://a24films.com/films/hereditary")
+    if choice == '1':
+        webbrowser.open_new("https://www.warnerbros.com/movies/exorcist")
+
+if answer == 'Mystery':
+    print("""
+    10. Mulholland Drive
+    9. L.A. Confidential
+    8. Memories of Murder
+    7. Rear Window
+    6. Gone Baby Gone
+    5. Zodiac
+    4. Seven
+    3. Vertigo
+    2. Chinatown
+    1. The Maltese Falcon""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.mulholland-drive.com/")
+    if choice == '9':
+        webbrowser.open_new("https://www.warnerbros.com/movies/la-confidential")
+    if choice == '8':
+        webbrowser.open_new("https://neonrated.com/films/memories-of-murder")
+    if choice == '7':
+        webbrowser.open_new("https://www.uphe.com/movies/rear-window")
+    if choice == '6':
+        webbrowser.open_new("https://www.miramax.com/movie/gone-baby-gone/")
+    if choice == '5':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/zodiac")
+    if choice == '4':
+        webbrowser.open_new("https://www.warnerbros.com/movies/seven")
+    if choice == '3':
+        webbrowser.open_new("https://www.filmsite.org/vert.html")
+    if choice == '2':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/chinatown")
+    if choice == '1':
+        webbrowser.open_new("https://www.warnerbros.com/movies/maltese-falcon")
+
+if answer == 'Romance':
+    print("""
+    10. The Princess Bride
+    9. Slumdog Millionaire 
+    8. The Best Man
+    7. Titanic
+    6. When Harry Met Sally
+    5. Brokeback Mountain
+    4. Pride & Prejudice
+    3. Casablanca
+    2. Love Jones
+    1. The Notebook""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.princessbrideforever.com/")
+    if choice == '9':
+        webbrowser.open_new("https://www.20thcenturystudios.com/movies/slumdog-millionaire")
+    if choice == '8':
+        webbrowser.open_new("https://www.uphe.com/movies/the-best-man-holiday")
+    if choice == '7':
+        webbrowser.open_new("https://www.paramountpictures.com/movies/titanic")
+    if choice == '6':
+        webbrowser.open_new("https://www.20thcenturystudios.com/movies/when-harry-met-sally")
+    if choice == '5':
+        webbrowser.open_new("https://stephenking.com/works/movie/misery.html")
+    if choice == '4':
+        webbrowser.open_new("https://www.focusfeatures.com/pride_and_prejudice")
+    if choice == '3':
+        webbrowser.open_new("https://www.warnerbros.com/movies/casablanca")
+    if choice == '2':
+        webbrowser.open_new("https://www.criterion.com/films/31501-love-jones")
+    if choice == '1':
+        webbrowser.open_new("https://www.warnerbros.com/movies/notebook")
+
+if answer == 'Thriller':
+    print("""
+    10. Fight Club
+    9. No Country for Old Men
+    8. The Usual Suspects
+    7. Oldboy
+    6. Drive
+    5. Misery
+    4. Parasite
+    3. Memento
+    2. Basic Instinct
+    1. Silence of the Lamb""")
+
+    print("Which movie would you like to learn more about? Choose 10-1.")
+    choice= input(">")
+    if choice == '10':
+        webbrowser.open_new("https://www.20thcenturystudios.com/movies/fight-club")
+    if choice == '9':
+        webbrowser.open_new("https://www.miramax.com/movie/no-country-for-old-men/")
+    if choice == '8':
+        webbrowser.open_new("https://www.imdb.com/title/tt0114814/")
+    if choice == '7':
+        webbrowser.open_new("https://www.imdb.com/title/tt0364569/")
+    if choice == '6':
+        webbrowser.open_new("https://www.sonypictures.com/movies/drive")
+    if choice == '5':
+        webbrowser.open_new("https://stephenking.com/works/movie/misery.html")
+    if choice == '4':
+        webbrowser.open_new("https://neonrated.com/films/parasite")
+    if choice == '3':
+        webbrowser.open_new("https://www.imdb.com/title/tt0209144/")
+    if choice == '2':
+        webbrowser.open_new("http://www.rialtopictures.com/catalogue/basic-instinct")
+    if choice == '1':
+        webbrowser.open_new("https://www.criterion.com/films/528-the-silence-of-the-lambs")
